@@ -1,11 +1,42 @@
 # Coolkid AI Lab
 
-🌐 [Coolkid AI Lab｜關於我](https://www.coolkidlab.com/about.html)
+把實際做過的 AI Workflow 整理成可安裝、可驗證，也適合拿來學習的開源 Skills。
 
-## 開源 SEO／GEO 工具
+Skill 提供決策框架、安全邊界與完成判準；實作細節由執行 Agent 依使用者的 repo、
+環境與當下官方文件補完，不把單一範例假裝成唯一解法。
 
-- [article-overlap-checker](https://github.com/Coolkidlab-Yin/article-overlap-checker)：檢查新文章與既有內容的主題重疊，降低內容互相競爭的風險。
-- [competitor-content-map](https://github.com/Coolkidlab-Yin/competitor-content-map)：整理競爭網站的內容版圖，找出主題覆蓋與內容缺口。
+[完整 Skill 工具庫](https://github.com/Coolkidlab-Yin/Coolkidlab) ·
+[實作紀錄](https://www.coolkidlab.com/) ·
+[關於我](https://www.coolkidlab.com/about.html)
 
+## SEO／GEO
 
-更多實作與完整紀錄：[coolkidlab.com](https://www.coolkidlab.com/)
+- [article-overlap-checker](https://github.com/Coolkidlab-Yin/article-overlap-checker)：找出內容撞題、關鍵字互相競爭與孤兒頁面。
+- [competitor-content-map](https://github.com/Coolkidlab-Yin/competitor-content-map)：從網站 sitemap 整理競品主題版圖與內容缺口。
+- [ga4-chatgpt-referral](https://github.com/Coolkidlab-Yin/ga4-chatgpt-referral)：用 GA4 免費資料倒推 ChatGPT 引用與 AI 流量來源。
+
+## 品牌與內容
+
+- [brand-profile-lockdown](https://github.com/Coolkidlab-Yin/brand-profile-lockdown)：透過顧問式訪談釐清定位，建立可長期沿用的品牌 Profile。
+- [voice-profile-extraction](https://github.com/Coolkidlab-Yin/voice-profile-extraction)：從真實寫作樣本萃取語氣指紋，讓 Agent 保留作者風格。
+
+## Agent 工作流
+
+- [claude-code-checkpoint-system](https://github.com/Coolkidlab-Yin/claude-code-checkpoint-system)：用 checkpoint 與 hooks 建立可跨對話接續的專案狀態系統。
+
+## 社群自動化 Builder
+
+- [threads-bot-builder](https://github.com/Coolkidlab-Yin/threads-bot-builder)：引導 Agent 建立有人類審核、安全重試與狀態追蹤的 Threads 發文流程。
+- [ig-bot-builder](https://github.com/Coolkidlab-Yin/ig-bot-builder)：引導 Agent 建立圖片、輪播與排程所需的 Instagram 發文流程。
+- [line-bot-builder](https://github.com/Coolkidlab-Yin/line-bot-builder)：引導 Agent 建立 LINE 推播、收訊息、預約或提醒流程。
+
+## 安裝完整工具庫
+
+在 Claude Code 執行：
+
+```text
+/plugin marketplace add Coolkidlab-Yin/Coolkidlab
+```
+
+各 Skill 的適用情境、限制與驗證方式都記錄在
+[Coolkidlab README](https://github.com/Coolkidlab-Yin/Coolkidlab#readme)。
