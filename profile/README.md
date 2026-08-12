@@ -37,6 +37,13 @@ Skill 提供決策框架、安全邊界與完成判準；實作細節由執行 A
 shiftdeck 是獨立專案而非 Skill，以 `git clone` 取得後執行 `python scripts/setup.py` 安裝，
 詳見該 repo 的 README。
 
+## 入門練習
+
+- [windows-desktop-pet-builder](https://github.com/Coolkidlab-Yin/windows-desktop-pet-builder)：用自己寵物的照片做一隻會拖曳、會看滑鼠、會撿球的 Windows 桌面小精靈。完整繁中教學、可貼給 Agent 的主提示詞與環境檢查腳本都在 repo 裡。
+
+適合當第一個「跟 AI Agent 協作」的題目：不必會寫程式，素材全留在本機，
+做壞了重來也沒有代價。
+
 ## 安裝完整工具庫
 
 在 Claude Code 執行：
