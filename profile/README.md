@@ -30,6 +30,13 @@ Skill 提供決策框架、安全邊界與完成判準；實作細節由執行 A
 - [ig-bot-builder](https://github.com/Coolkidlab-Yin/ig-bot-builder)：引導 Agent 建立圖片、輪播與排程所需的 Instagram 發文流程。
 - [line-bot-builder](https://github.com/Coolkidlab-Yin/line-bot-builder)：引導 Agent 建立 LINE 推播、收訊息、預約或提醒流程。
 
+## 職場工具
+
+- [shiftdeck](https://github.com/Coolkidlab-Yin/shiftdeck)：AI 生成簡報後仍保留控制權，版面從頁型庫挑選、動畫逐元素設定、單頁重生成不必等全份重跑。輸出為原生可編輯的 .pptx，底層使用 [ppt-master](https://github.com/hugohe3/ppt-master) 編譯引擎。
+
+shiftdeck 是獨立專案而非 Skill，以 `git clone` 取得後執行 `python scripts/setup.py` 安裝，
+詳見該 repo 的 README。
+
 ## 安裝完整工具庫
 
 在 Claude Code 執行：
